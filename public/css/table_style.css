@@ -1,22 +1,44 @@
 /*programmes__table*/
 
-.programmes__table {
+.programs {
+    background: #3AACC6;
+    padding: 3rem;
+}
+
+.programs h2 {
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 2.1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.programs__table {
     border-collapse: separate;
     border-spacing: 0 7px;
     font-size: 0.9rem;
+    width: 108%;
 }
 
-.program__icon {
+.programs__icon {
     background: #EFEDEE;
 }
 
-.program__name {
+.programs__title th {
+    color: #fff !important;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 21%;
+}
+
+.programs__name {
     width: 24%;
 }
 
-.program__name>span {
-    position: relative;
+.programs__name>span {
     left: -33px;
+    position: relative;
 }
 
 tr .co-funding {
@@ -25,45 +47,46 @@ tr .co-funding {
 }
 
 .porcentage>span {
-    position: relative;
     left: -30px;
+    position: relative;
 }
 
-.program__description {
-    width: 72%;
+.programs__description {
+    width: 67%;
     background: #D7D3D4;
-    padding: 20px;
+    padding: 1rem;
+    line-height: 1.5rem;
 }
 
-.program__img {
+.programs__img {
     text-align: center;
 }
 
-.program__img img {
+.programs__img img {
     width: 24%;
 }
 
 .programm__title th {
     color: #fff !important;
+    font-size: 1.2rem;
     text-align: center;
     width: 21%;
-    font-size: 1.2rem;
 }
 
 
 /*program table list*/
 
 .program {
+    background: #EFEDEE;
     border-collapse: collapse;
     border-spacing: 0;
-    width: 90%;
     margin: 30px auto;
-    background: #EFEDEE;
+    width: 90%;
 }
 
 .program-info {
-    text-transform: capitalize;
     color: #3AACC6;
+    text-transform: capitalize;
 }
 
 .program-info th {
@@ -77,11 +100,21 @@ tr .co-funding {
 .program .title h3 {
     background: #3AACC6;
     color: white;
-    text-transform: uppercase;
-    padding: 1rem;
     font-weight: 700;
+    padding: 1rem;
+    text-transform: uppercase;
 }
 
 .program .title th {
     background: #fff;
+}
+
+.selected-programs__title {
+    background: #3AACC6;
+    border-radius: 1px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 21px;
 }
