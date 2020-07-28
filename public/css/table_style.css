@@ -1,0 +1,87 @@
+/*programmes__table*/
+
+.programmes__table {
+    border-collapse: separate;
+    border-spacing: 0 7px;
+    font-size: 0.9rem;
+}
+
+.program__icon {
+    background: #EFEDEE;
+}
+
+.program__name {
+    width: 24%;
+}
+
+.program__name>span {
+    position: relative;
+    left: -33px;
+}
+
+tr .co-funding {
+    position: relative;
+    right: -98px;
+}
+
+.porcentage>span {
+    position: relative;
+    left: -30px;
+}
+
+.program__description {
+    width: 72%;
+    background: #D7D3D4;
+    padding: 20px;
+}
+
+.program__img {
+    text-align: center;
+}
+
+.program__img img {
+    width: 24%;
+}
+
+.programm__title th {
+    color: #fff !important;
+    text-align: center;
+    width: 21%;
+    font-size: 1.2rem;
+}
+
+
+/*program table list*/
+
+.program {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    margin: 30px auto;
+    background: #EFEDEE;
+}
+
+.program-info {
+    text-transform: capitalize;
+    color: #3AACC6;
+}
+
+.program-info th {
+    padding: 1.1rem;
+}
+
+.program__session td {
+    padding: 1rem 2rem;
+}
+
+.program .title h3 {
+    background: #3AACC6;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.program .title th {
+    background: #fff;
+}

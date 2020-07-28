@@ -1,0 +1,82 @@
+/*company form*/
+
+.info-company__form {
+    border: 1px solid #3AACC6;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.info-company__title {
+    background: #3AACC6;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.info-company__content {
+    padding: 18px 0;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-company__form div {
+    padding: 18px 0;
+    position: relative;
+}
+
+form input {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    padding: 8px 0;
+    width: 39%
+}
+
+
+/*
+.form label {
+    width: 334px;
+    display: inline-block;
+}*/
+
+.form__check {
+    padding-left: 339px;
+    margin: 5px 0;
+}
+
+.form__check input {
+    padding: 0;
+    width: 15px;
+    position: inherit !important;
+    vertical-align: middle;
+    left: 0;
+}
+
+.form__check label {
+    vertical-align: middle;
+}
+
+.form__submit input {
+    width: 150px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #FFF;
+    background: #3AACC6;
+    text-align: center;
+    border: 1px solid;
+    margin: 20px 0;
+}
+
+.form__check {
+    margin: 20px auto;
+    width: 41%;
+}
+
+.form__submit {
+    text-align: center;
+}

@@ -1,0 +1,209 @@
+.fa-search {
+    position: absolute;
+    right: 2px;
+    background: #3AACC6;
+    color: white;
+    bottom: 3px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.hero {
+    background: #3AACC6;
+    color: white;
+    padding: 100px 0 38px 0;
+}
+
+.hero__title {
+    text-transform: uppercase;
+    line-height: 2rem;
+    margin: 2rem 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero__description {
+    font-size: 23px;
+    line-height: 34px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.main-title {
+    color: #3AACC6;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.search-button input {
+    border: 2px solid #3AACC6;
+    padding: 10px;
+    width: 334px;
+    font-size: 15px;
+}
+
+.search-button {
+    float: right;
+    position: relative;
+    margin-bottom: 5px;
+    margin: 24px 0;
+}
+
+.programe h3 {
+    font-weight: 800;
+}
+
+body {
+    color: #707070;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 79%;
+}
+
+
+/*review*/
+
+.review {
+    text-align: center;
+    /* font-size: 16px; */
+    margin: 3rem 0;
+}
+
+.review__title {
+    color: #3AACC6;
+    /* text-align: center; */
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.review__title:after {
+    background: #3AACC6;
+    display: block;
+    height: 2px;
+    content: '';
+    margin: 10px auto;
+    width: 100px;
+    text-align: center;
+}
+
+.review__txt {
+    line-height: 31px;
+}
+
+
+/*PROGRAMMES*/
+
+.programmes {
+    background: #3AACC6;
+    padding: 3rem;
+}
+
+.programmes__title {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.table__row--blue>.table__icon,
+.table__row--blue>.table__percentage,
+.table__row--blue>.table__dark,
+.table__row--blue>.image {
+    background: #3AACC6;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.table__row--blue>.table__percentage {
+    width: 110px;
+}
+
+.imag {
+    text-align: center;
+}
+
+
+/*info-company*/
+
+.info-company__empploye {
+    display: table;
+    margin-bottom: 50p;
+    margin: 7% 0;
+}
+
+.info-company__icon {
+    display: table-cell;
+    width: 33%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 26px;
+}
+
+.main__title {
+    text-align: center;
+    color: #3AACC6;
+    font-size: 40px;
+    margin: 35px 0;
+}
+
+
+/*TABLE*/
+
+body {
+    margin: 0;
+    color: #707070;
+}
+
+.main-title {
+    color: #3AACC6;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+}
+
+.selected-programs__content {
+    font-family: Arial, Helvetica, Verdana;
+}
+
+.selected-programs__title {
+    background: #3AACC6;
+    color: white;
+    text-transform: uppercase;
+    padding: 21px;
+    display: block;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+button {
+    background: #3AACC6;
+}
+
+.button-selected {
+    background-color: #3AACC6;
+    border: 0px solid #047A94;
+    border-color: #3AACC6;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button-wrapper {
+    margin: 0 auto;
+    text-align: right;
+    width: 900px;
+}

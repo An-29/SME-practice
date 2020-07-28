@@ -1,0 +1,54 @@
+.header {
+    display: table;
+}
+
+.header__content {
+    padding: 0.5rem;
+}
+
+.header__top {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #3AACC6;
+    z-index: 1;
+}
+
+.header__menu {
+    padding: 1rem 0;
+    display: table-cell;
+    position: relative;
+    left: 43%;
+    vertical-align: middle;
+}
+
+.header__logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header__logo .logo {
+    width: 64%;
+}
+
+.header__menu ul {
+    display: table;
+}
+
+.header__menu>ul>li {
+    display: table-cell;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.header__menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+.header__menu a:hover {
+    color: #3AACC6;
+}
